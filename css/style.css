@@ -25,11 +25,11 @@
     font-size: 65px;
     margin-left: 10px;
 }
-.description{
+.banner-description{
     text-align: right;
     margin:20px 0px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: #444343;
     font-family: sans-serif;
     line-height: 26px;
@@ -42,6 +42,7 @@
     font-size: 20px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 /* failure styles */
@@ -96,17 +97,18 @@ font-size: 16px;
     color: #737272;
 }
 
+
+/* second plan  style  */
 .update-heading{
     font-weight: 700;
     font-size: 45px;
     text-align: center;
     margin-bottom: 20px;
 }
-/* second plan  style  */
 .plan{
     display: flex;
     gap: 25px;
-    margin: 0px 150px;
+    margin: 20px 150px;
     text-align: left;
 }
 .box{
@@ -129,8 +131,9 @@ font-size: 16px;
     text-align: left;
     margin-top: 10px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     color: #707070;
+    font-family: sans-serif;
 }
 
 /* mindset styles  */
@@ -180,6 +183,8 @@ display: block;
 }
 .footer-description{
     color: #FFF;
+    font-weight: 400;
+    font-size: 12px;
     font-family: sans-serif;
     margin: 10px 0px;
 }
@@ -206,10 +211,13 @@ input[type="email"]{
     border: 1px solid #FFF;
     border-radius: 5px;
     margin-bottom: 10px;
+    background: #151414;
+    color: #EDF5F6;
 }
 input[type="submit"]{
     padding: 15px;
     background-color: #FFF;
     color: #F15B22;
     border-radius: 5px;
+    cursor: pointer;
 }
